@@ -1,70 +1,74 @@
-body{
+body {
     font-family: 'Raleway', sans-serif;
 }
 
-.big-wrapper{
+.big-wrapper {
     width: 100%;
     height: 600px;
     background-image: url("../img/dd.jpg");
     border-top: 10px solid #5385c1;
 }
-#my-navigation{
-    background: none; 
+
+#my-navigation {
+    background: none;
     border: 0;
     position: relative;
     top: 35px;
-   
 }
-#my-navigation .navbar-header a{
+
+#my-navigation .navbar-header a {
     color: white;
     font-size: 25px;
     font-weight: 400;
-
 }
-#my-navigation .navbar-nav a{
+
+#my-navigation .navbar-nav a {
     color: white;
     font-size: 15px;
     font-weight: 100;
-
 }
-#my-navigation .navbar-toggle .icon-bar{
+
+#my-navigation .navbar-toggle .icon-bar {
     color: white;
     background-color: white;
 }
 
-.benner h1{
-    color: white; 
+.benner h1 {
+    color: white;
     font-size: 52px;
     text-align: center;
     font-weight: 200;
 }
 
-.benner p{
-    color: white; 
+.benner p {
+    color: white;
     font-size: 16px;
     text-align: center;
     font-weight: 200;
 }
-.benner{
+
+.benner {
     position: relative;
     top: 150px;
-    
 }
-.secent-section{
+
+.secent-section {
     padding: 50px 0;
-    /* padding: 0 100px; */
 }
-.secent-section h4{
+
+.secent-section h4 {
     color: #5385c1;
     line-height: 30px;
     font-weight: 300;
     font-size: 25px;
 }
-.secent-section p{
-     margin-top: 25px 0;
+
+.secent-section p {
+    margin-top: 25px 0;
     line-height: 28px;
 }
-.mybutton{
+
+.mybutton {
     color: white;
     background-color: #5385c1;
     width: 100px;
@@ -73,117 +77,83 @@ body{
     font-family: 'Raleway', sans-serif;
     margin-top: 25px;
 }
-.main{
+
+.main {
     padding: 0 30px;
 }
-.sec-padding{
+
+.sec-padding {
     border-left: 1px solid #dbdbdb;
     border-right: 1px solid #dbdbdb;
 }
 
 
 /* team */
-.team{
+
+.team {
     width: 100%;
     background-color: #5385c1;
     padding: 80px 0;
     color: #fff;
 }
-.team h1,.persan h3{
+
+.team h1,
+.persan h3 {
     font-weight: 100;
 }
-.team p{
+
+.team p {
     font-weight: 100;
 }
+
 .persan {
     border: 1px solid white;
     text-align: center;
     padding: 50px;
-    margin-top: 50px;    
+    margin-top: 50px;
 }
 
-
-
-.two-sec{
+.two-sec {
     color: #5385c1;
-    padding: 100px 0 0 0;
+    /* ploblem */
+    /* padding: 100px 0 0 0; */
+    /* solution */
+    /* background-color: aquamarine; */
+    padding-top: 100px;
 }
+
 .two-caption h1 {
     font-weight: 100;
     font-size: 50px;
 }
-.two-caption p{
+
+.two-caption p {
     font-weight: 300;
-
+    padding: 10px 0 20px 0;
 }
 
-
-
-.section-1,.section-2{
-    padding-right: 30px;
-    margin-top: 100px;
-
+.section-1,
+.section-2 {
+    padding-right: 50px;
+    margin-top: 50px;
 }
-.section-1 img, .section-2 img{
+
+.section-1 img,
+.section-2 img {
     width: 100%;
 }
-.section-1 h3,.section-2 h3{
-    padding: 25px 0;
-    font-size: 25px;
-    font-weight: 500;
-}
-.section-1 p,.section-2 p{
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 25px;
-}
 
 
-.footer{
-    margin: 80px 0 0 0;
-    border-top: 1px solid #dadada   ;
-    padding: 50px 0 0 0 ;
+/* footer start */
 
+.footer {
+    margin: 50px;
+    padding: 10px 0;
 }
-.footer p{
-    font-size: 14px;
-    font-weight: 300;
-}
-.footer span{
-    padding:  0 10px;
+
+.footer span {
+    padding-right: 10px;
     font-size: 20px;
 }
-.row{
-    padding-right: 0;
-}
 
 
-
-@media only screen and (max-width:767px){
-    .benner h1{
-        font-size: 45px;
-    }
-    .benner p{
-        font-size: 14px;
-    }
-
-    .sec-padding{
-        border: 0;
-    }
-    .two-caption h1{
-        font-size: 38px;
-    }
-     .section-1,.section-2{
-        padding: 0 30px 0 60px;
-        margin-right: 0;
-    } 
- }
-@media only screen and (max-width:480px){
-    .footer p{
-        font-size: 12px;
-    }
-    .footer span{
-        font-size: 15px;
-        padding: 0 5px;
-    }
-}
