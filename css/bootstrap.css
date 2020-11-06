@@ -6250,7 +6250,8 @@ button.close {
           transition: .6s ease-in-out left;
 }
 .carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.
+-inner > .item > a > img {
   line-height: 1;
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
